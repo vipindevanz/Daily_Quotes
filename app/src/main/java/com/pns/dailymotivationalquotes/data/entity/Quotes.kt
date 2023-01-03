@@ -1,4 +1,4 @@
-package com.pns.dailymotivationalquotes.data
+package com.pns.dailymotivationalquotes.data.entity
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
