@@ -9,7 +9,7 @@ data class Quote(
 
     @SerializedName("q")
     @PrimaryKey
-    val quotes : String,
+    val quote : String,
 
     @SerializedName("a")
     val author : String,
