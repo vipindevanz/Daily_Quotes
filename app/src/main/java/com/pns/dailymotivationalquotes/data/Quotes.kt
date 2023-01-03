@@ -7,13 +7,13 @@ import com.google.gson.annotations.SerializedName
 @Entity(tableName = "quotes")
 data class Quote(
 
-    @SerializedName("quote")
+    @SerializedName("q")
     @PrimaryKey
-    val q : String,
-    @SerializedName("author")
-    val a : String,
-    @SerializedName("character")
-    val c : String,
-    @SerializedName("web")
+    val quotes : String,
+
+    @SerializedName("a")
+    val author : String,
+
+    val character : String,
     val h : String,
 )
