@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.pns.dailymotivationalquotes.data.Quote
+import com.pns.dailymotivationalquotes.data.entity.Quote
 import com.pns.dailymotivationalquotes.databinding.QuoteItemBinding
 
 class QuoteAdapter : ListAdapter<Quote, QuoteAdapter.QuoteViewHolder>(QuoteComparator()) {
