@@ -13,7 +13,4 @@ data class Quote(
 
     @SerializedName("a")
     val author : String,
-
-    val character : String,
-    val h : String,
 )
