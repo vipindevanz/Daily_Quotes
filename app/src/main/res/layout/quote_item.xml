@@ -7,7 +7,7 @@
 
         <variable
             name="quotes"
-            type="com.pns.dailymotivationalquotes.data.Quote" />
+            type="com.pns.dailymotivationalquotes.data.entity.Quote" />
     </data>
 
     <RelativeLayout
@@ -19,6 +19,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:elevation="10dp"
+            app:cardBackgroundColor="#FFFFFF"
+            android:background="#FFFFFF"
+            android:backgroundTint="#FFFFFF"
             app:cardCornerRadius="10dp"
             app:cardUseCompatPadding="true">
 
@@ -32,7 +35,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@{quotes.quote}"
-                    android:textSize="22sp"
+                    android:textSize="20sp"
                     tools:text="Motivational quotes Motivational quotes Motivational quotes Motivational quotes Motivational quotes Motivational quotes Motivational quotes Motivational quotes Motivational quotes Motivational quotes Motivational quotes Motivational quotes Motivational quotes Motivational quotes Motivational quotes Motivational quotes Motivational quotes Motivational quotes Motivational quotes Motivational quotes " />
 
                 <TextView
@@ -42,8 +45,10 @@
                     android:layout_below="@+id/text_view_quote"
                     android:layout_alignParentEnd="true"
                     android:text="@{quotes.author}"
-                    android:textSize="12sp"
-                    tools:text="author" />
+                    android:textSize="10sp"
+                    android:textColor="#005EFF"
+                    tools:text="author"
+                    tools:ignore="SmallSp" />
 
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
